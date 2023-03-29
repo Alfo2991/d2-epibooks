@@ -14,7 +14,7 @@ class AllTheBooks extends Component {
   
     render() {
       return (
-        <div>
+        <div >
           <h1>All The Books</h1>
           <Carousel>
             {this.state.books.map((book) => (
