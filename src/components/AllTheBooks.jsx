@@ -22,7 +22,7 @@ class AllTheBooks extends Component {
                 <Row>
                   <Col>
                     <Card>
-                      <Card.Img variant="top" className="d-block w-60" src={book.img} />
+                      <Card.Img className=" mx-auto d-block img-fluid d-block w-50 " src={book.img} />
                       <Card.Body>
                         <Card.Title>{book.title}</Card.Title>
                         <Card.Text>{book.category}</Card.Text>
