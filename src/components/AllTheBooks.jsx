@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Row, Col, Card, Carousel } from "react-bootstrap";
+import { Row, Col, Card, Carousel, Button } from "react-bootstrap";
 import fantasy from "../data/coverbooks/fantasy.json";
 import history from "../data/coverbooks/history.json";
 import horror from "../data/coverbooks/horror.json";
@@ -27,8 +27,10 @@ class AllTheBooks extends Component {
                         <Card.Title>{book.title}</Card.Title>
                         <Card.Text>{book.category}</Card.Text>
                         <Card.Text>${book.price}</Card.Text>
+                        <Button variant="primary">Buy Now!</Button>
                       </Card.Body>
                     </Card>
+                    
                   </Col>
                 </Row>
               </Carousel.Item>

@@ -10,7 +10,7 @@ function MyFooter() {
         <Card.Text>
           We do NOT give books for free, we share knowledge.
         </Card.Text>
-        <Button variant="primary">Help Us!</Button>
+       
       </Card.Body>
       <Card.Footer className="text-muted">®EpiBooks!</Card.Footer>
     </Card>
